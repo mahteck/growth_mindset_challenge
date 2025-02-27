@@ -2,10 +2,10 @@
 import streamlit as st # type: ignore
 import pandas as pd # type: ignore
 import os
-from docx import Document # type: ignore
-from pptx import Presentation # type: ignore
-import fitz  # PyMuPDF for PDF Handling # type: ignore
-from fpdf import FPDF  # For PDF Generation # type: ignore
+from docx import Document
+from pptx import Presentation
+import fitz  # PyMuPDF for PDF Handling
+from fpdf import FPDF  # For PDF Generation
 from io import BytesIO
 import json
 
